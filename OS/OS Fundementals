@@ -1,0 +1,40 @@
+sources || https://www.geeksforgeeks.org/functions-of-operating-system/?ref=lbp
+
+OVERVIEW{
+OS's are in charge of system management across the board. 
+
+MAIN MEMORY:
+Main memory is fast storage -- can be accessed directly by CPU -- each byte assigned a memory address
+Programs execute from main memory -- OS manages allocation and deallocation of main memory
+OS allocates memory when requested, deallocates when requested to close'
+OS is in charge of the order of processes for the memory
+https://media.geeksforgeeks.org/wp-content/uploads/20230518091047/1white-660x453.webp
+
+PROCESS SCHEDULING:
+OS decides which processes have access to the processor and for how much time each process has
+https://media.geeksforgeeks.org/wp-content/uploads/20230518091140/download-(1).webp
+
+DEVICE MANAGEMENT: 
+OS decides which processes get control of which devices and for how long
+allocate/ deallocate device permissions
+Mouse / keyboard
+
+CONTROL:
+OS's control a lot of optimizations for sys performance
+
+OBVIOUS THINGS:
+OS Controls--
+boot/shutdown
+File system
+Security (protection from unauth login, intrusion via firewall, sys memory vs malicious access, disp messages related to sys vulnerability)
+}
+
+TYPES OF OS'S{
+BATCH OS'S:
+Don't interact with the computer directly, instead, there's an opoerator which takes similar jobs having the same requirement and groups them into batches. OS is supposed to control which batch has similar needs
+Good for minimum idle time, repeated amounts of large work is easy to manage, system knows how long the job will take when it's in the queue, multiple users can share batch systems
+
+
+
+
+}
