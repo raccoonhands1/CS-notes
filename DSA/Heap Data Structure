@@ -1,0 +1,12 @@
+OVERVIEW {
+A min/ max heap is a COMPLETE BINARY TREE which is:
+- Always balanced
+- Each level but last has max # of nodes.
+- Last layer filled left → right
+- Partially ordered {
+[All Values >= Root (min heap) ➔ Both children are >=] 
+[All Values <= Root (max heap) ➔ Both children are <=]
+  }
+
+
+}
