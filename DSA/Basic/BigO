@@ -1,0 +1,23 @@
+Big O Effect as N Examples
+O(1)
+Independent:
+No change
+Accessing a value via an array index.
+Push / Pop
+O(log N)
+Logarithmic:
+Minimal change.
+Binary search for a value in an ordered array
+O(N)
+Linear growth with N:
+Proportional change
+Accessing each element in array via 1→ N loop
+O(NlogN)
+Slightly more than
+linear growth.
+“Good Sorts” (Merge sort / Quick Sort).
+(A LOT More on this later)
+O(N^2) Significant growth Bubble Sort. Outer Loop of x = 1 →N containing an inner
+loop of Y = 2 → N. Test each element against all others
+O(2^N) Exponential growth Recursive calculation of Fibonacci numbers.
+(More on this later)
