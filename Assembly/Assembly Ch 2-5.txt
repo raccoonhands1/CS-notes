@@ -1,0 +1,70 @@
+Start of chapter notes;
+
+clock syncs internal operations of the CPU
+
+Control Unit (CU) coordinates the steps for instructions
+
+arithmetic logic unit ALU performs arithmetic && OR, NOT, etc
+
+CPU contains limited number of storage locations named registers
+
+most CPU pins connect to data bus control bus address bus
+
+
+Memory storage unit is where instruction are held while a program is running
+
+Storage unit handles RAM -> CPU transfer && vise versa
+
+programs reisding in memopry must be copied to CPU before execution
+
+groups of instructions can be copied together
+
+bus is parallel wires that transfer data
+
+data bus, IO bus, control bus, address bus
+
+Data bus transfers instructions, IO transfers bet CPU && sys output/ in, control bus use binary to sync actions of devices attatched to sys bus. Addresss bus holds addresses of instuctions && data while executions happen
+
+duration of clock cycle is the reciprocal of clock speed, oscillations per second. 1 billion ossc. per second (1GHz) is 1 billionth of a second cycle
+
+some architectures have empty clock cycles called wait states because of CPU speed differences, sys bus, and mem circuits
+
+oInstruction exe cycle--
+CPU FETCH INSTRUCTION from INSTRUCTION QUEUE in MEMORY
+CPU DECODES INSTRUCTION
+IF OPERANDS ARE INVOLVED, THE CPU FETCHES OPERANDS FROM REGISTERS && MEMORY
+CPU EXECUTES INSTURCTION
+CPU STORES THE OUTPUT IN THE OPERAND //note:: wdym stores in operand
+
+FETCH, DECODE, EXE
+
+Computers read memory slowly because it involves 4 steps to read
+PLACEMENT OF ADDRESS OF WHAT IS BEING READ -> CHANGE THE VAL OF PROCESSORS READ PIN - > WAIT A CLOCK CYCLE FOR A RESPONSE -> COPY THE DATA GIVEN
+
+gist:: computers run so fast that it doesnt matter, cache memory speeds it up
+
+L1 cache is stored on the CPU directly
+L2 cache is attatched to CPU with a data bus
+
+dynamic ram is slow and cheap but static ram is expensive and fast
+
+GO TO PAGE 77 FOR INFO ON LOADING && EXECUTING A PROGRAM (i hardly need to know it )
+
+ok fine : 
+OS searches for filename in disk, if not there -> search through sys paths
+OS retrieves file size && location in disk
+OS determines next location in memory, loads block.
+OS begins from first machine instruction. 
+
+SUMMARY SO FAR:: 
+2 types of ram, program exe is sort of cool, CPU architecture goes through many different buses, You can transfer data in big blocks efficiently. Fetch, decode, exe refers to CPU. 1 read == 4 clock cycles
+
+Registers are high speed storage locations in the CPU
+8 general purpose regesters, six segment registers, processor status flags register (EFLAGS) and instruction pointer (EIP)
+
+gen purpose are like for arithmetic && such
+
+PAGE 39 FOR MORE INFO ON REGISTERS
+
+The CPU has armor in the form of EFLAGS so it detects integer overflow errors and protects itself with virtual mode && protected mode (control flags)
+
